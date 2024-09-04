@@ -1,2 +1,2 @@
 # TypescriptPR1
-Tetris program written in javascript
+Some functions written in javascript
