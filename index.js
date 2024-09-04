@@ -1,28 +1,28 @@
-function sayLouder(text){
+function sayLouder(text: string){
 
     return text.toUpperCase();
 
 }
 
-function sum2nums(num1, num2){
+function sum2nums(num1: number, num2: number){
 
     return num1 + num2;
 
 }
 
-function multiplication(num1, num2){
+function multiplication(num1: number, num2: number){
 
     return num1 * num2;
 
 }
 
-function divide(num1, num2){
+function divide(num1: number, num2: number){
 
     return num1 / num2;
 
 }
 
-function substraction(num1, num2){
+function substraction(num1: number, num2: number){
 
     return num1 - num2;
 
@@ -36,19 +36,19 @@ function findMax(arr) {
 
 }
 
-function celsiusToFahrenheit(celsius) {
+function celsiusToFahrenheit(celsius: number) {
 
     return (celsius * 9/5) + 32;
 
 }
 
-function fahrenheitToCelsius(fahrenheit){
+function fahrenheitToCelsius(fahrenheit: number){
 
     return (fahrenheit / (9/5)) - 32;
 
 }
 
-function getRandomInt(min, max) {
+function getRandomInt(min: number, max: number) {
 
     return Math.floor(Math.random() * (max - min + 1)) + min;
 
@@ -60,7 +60,7 @@ function mergeArrays(arr1, arr2) {
 
 }
 
-function isPrime(num) {
+function isPrime(num: number) {
 
     if (num <= 1) return false;
 
@@ -74,7 +74,7 @@ function isPrime(num) {
 
 }
 
-function factorial(n) {
+function factorial(n: number) {
 
     if (n < 0) return 'Invalid input';
 
@@ -84,7 +84,7 @@ function factorial(n) {
 
 }
 
-function double(value){
+function double(value: number){
 
     return value*2;
 
@@ -106,60 +106,60 @@ function getRandomColor() {
 
 }
 
-function square(num) {
+function square(num: number) {
 
     return num * num;
 
 }
 
-function isEven(num) {
+function isEven(num: number) {
 
     return num % 2 === 0;
 
 }
 
-function stringLength(str) {
+function stringLength(str: number) {
 
     return str.length;
 
 }
 
-function isPositive(num) {
+function isPositive(num: number) {
 
     return num > 0;
 
 }
 
-function isNegative(num){
+function isNegative(num: number){
 
     return num < 0;
 
 }
 
-function isZero(num){
+function isZero(num: number){
     
     return num == 0;
 
 }
 
-function absoluteValue(num) {
+function absoluteValue(num: number)) {
 
     return Math.abs(num);
 
 }
 
-function isOne(num){
+function isOne(num: number)){
     
     return num == 1;
 
 }
 
-function isBiggerThanOne(num){
+function isBiggerThanOne(num: number)){
 
     return num > 1;
 
 }
 
-function isBiggerThanOneHundred(num){
+function isBiggerThanOneHundred(num: number)){
     return num > 100;
 }
