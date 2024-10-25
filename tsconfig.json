@@ -7,6 +7,9 @@
     "allowJs": true,
     "noUncheckedIndexedAccess": true,
     "forceConsistentCasingInFileNames": true,    
-    "strict": true                                
-  }
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src"                            
+  },
+  "include": ["src/**/*"]
 }
