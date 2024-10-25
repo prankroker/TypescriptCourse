@@ -1,2 +1,2 @@
-# TypescriptPR1
+# TypescriptCourse
 Some functions written in javascript
