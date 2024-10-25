@@ -1,2 +1,2 @@
 # TypescriptCourse
-Some functions written in javascript
+Some functions written in javascript 
