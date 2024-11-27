@@ -6,5 +6,5 @@ export type ContentOperations<T extends BaseContent> = {
     read(user:User,id: string): Promise<T | null>;
     update(user:User,id: string, updates: Partial<T>): Promise<T>;
     delete(user:User,id: string): Promise<void>;
-    list(params?: any): Promise<T[]>;
+    list(user:User,params?: any): Promise<T[]>;
 };
